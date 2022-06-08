@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Generate a random password</h1>
+    <h3>Never use an insecure password again</h3>
+    <button onclick="fourWords()">GENERATE PASSWORD</button>
+    <input type="number" id="pass-num" value="7" oninput="passwordLength()">
+    <p id="word" class="words"></p>
+    <p id="word1" class="words"></p>
+    <p id="word2" class="words"></p>
+    <p id="word3" class="words"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
