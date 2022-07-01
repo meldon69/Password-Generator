@@ -1,3 +1,114 @@
-.words {
-    font-size: 30px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    max-width: 950px;
+    margin: 0 auto;   
+}
+
+.container {
+    background: #1F2937;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    border: 5px solid rgb(46, 196, 222);
+    border-radius: 5px;
+    border-style: double;
+}
+
+/* ==== HEADER ==== */
+header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+}
+
+.title {
+    color: white;
+}
+
+.secondary {
+    color: rgb(46, 196, 222);
+}
+
+.supporting-text {
+    color: #D5D4D8;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ==== INPUT ---- */
+.input {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.butt {
+    background: rgb(20, 175, 225);
+    width: 223px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.password-msg {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.password-num {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    background: none;
+    text-align: center;
+    font-size: 18px;
+    width: 75px;
+}
+
+#error {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;  
+}
+
+/* ==== OUTPUT ==== */
+.passwords {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 300px;
+    font-size: 25px;
+    resize: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background: #273549;
+    color: rgb(46, 196, 222);
 }
